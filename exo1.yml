@@ -5,10 +5,9 @@ info:
 paths:
   /ping:
     get:
-      summary: Vérifie si l'API répond
       responses:
         '200':
-          description: Réponse réussie
+          description: get pong
           content:
             text/plain:
               schema:
